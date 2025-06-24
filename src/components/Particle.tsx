@@ -1,5 +1,5 @@
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { loadSlim } from "@tsparticles/slim";
 
 function Particle() {
@@ -22,9 +22,7 @@ function Particle() {
     });
   }, []);
 
-  const particlesLoaded = (container: any) => {
-    console.log(container);
-  };
+
 
   const params: any = {
   "background": {
