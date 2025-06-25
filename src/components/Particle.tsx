@@ -33,7 +33,7 @@ function Particle() {
       "value": 800,
       "density": { "enable": true }
     },
-    "color": { "value": "#ffffff" },
+    "color": { "value": "#555" },
     "shape": { "type": "circle" },
     "size": {
       "value": { "min": 1, "max": 3 }
