@@ -1,4 +1,3 @@
-import { AiOutlineHome } from "react-icons/ai";
 import "./navbar.css"
 
 
