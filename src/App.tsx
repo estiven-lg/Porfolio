@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/navbar/Navbar";
-import Home from "./components/Home/Home";
+import Home from "./screens/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
@@ -16,6 +16,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Particle from "./components/Particle";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -34,6 +35,8 @@ function App() {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
+        <Particle />
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />

@@ -135,21 +135,15 @@ button:focus {
 }
 
 .home-section {
-  /* position: relative; */
-  z-index: -2;
-  background-image: var(--image-gradient), url(./assets/home-bg.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
+  position: relative;
+  /* z-index: -99; */
+  /* background-image: var(--image-gradient), url(./assets/home-bg.jpg); */
+  /* background-position: top center; */
+  /* background-repeat: no-repeat; */
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
 
-.home-content {
-  position: relative;
-  /* padding: 9rem 0 2rem !important; */
-  color: whitesmoke;
-  text-align: left;
-}
 
 .heading {
   font-size: 2.4em !important;
@@ -670,10 +664,22 @@ button:focus {
   background-position: 100% 0%;
 }
 
+.particles {
+  position: fixed;
+  width: 100%;
+  z-index: -999;
+}
+
 /* --------- */
 /* Navbar Section  */
 /* --------- */
 
 .nav-bar {
-  background: #434343;
+  /* background: #434343; */
+  z-index: 9999;
+}
+
+.App {
+  position: relative;
+  z-index: 0;
 }

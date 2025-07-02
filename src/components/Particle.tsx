@@ -72,6 +72,7 @@ function Particle() {
     <Particles
       id="tsparticles"
       options={params}
+      className="particles"
     />
 
   );

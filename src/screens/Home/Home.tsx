@@ -1,5 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
+import {  Row, Col } from "react-bootstrap";
 import Home2 from "./Home2";
 import Type from "./Type";
 import profilePhoto from '../../assets/avatar.jpeg';
@@ -8,12 +7,11 @@ import profilePhoto from '../../assets/avatar.jpeg';
 function Home() {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
-        <Particle />
-        <Container className="home-content pt-32">
+      <div className="home-section" id="home">
+  
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15, zIndex: 99 }} className="heading">
+              <h1 className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
@@ -41,8 +39,8 @@ function Home() {
               </div>
             </Col>
           </Row>
-        </Container>
-      </Container>
+   
+      </div>
       <Home2 />
     </section>
   );
