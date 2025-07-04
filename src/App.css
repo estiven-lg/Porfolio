@@ -1,3 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colores principales */
+  --color-primary: #4c3f77;
+  --color-primary-light: #6f5c9a;
+  --color-primary-dark: #3a2c5b;
+
+  /* Colores secundarios */
+  --color-secondary: #007f97;
+  --color-secondary-light: #33a1b8;
+  --color-secondary-dark: #005f6f;
+
+  /* Colores terciarios */
+  --color-tertiary: #0a1c3d;
+  --color-tertiary-light: #1a2e5c;
+  --color-tertiary-dark: #081a2c;
+
+  /* Colores de texto */
+  --color-text: #a4bcbc;
+  --color-text-light: #c0d0d0;
+  --color-text-dark: #7a8c8c;
+}
 
 .App {
   text-align: center;

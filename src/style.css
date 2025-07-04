@@ -683,3 +683,8 @@ button:focus {
   position: relative;
   z-index: 0;
 }
+
+.content {
+  width: 100%;
+  padding-left: 5%;
+}

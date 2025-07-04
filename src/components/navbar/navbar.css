@@ -1,17 +1,9 @@
-/* -
--*-~*~-*-*-~*~-*-*-~*~* |
-●▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬●
-Made by ~
-Areal Alien ❥ 雷克斯
-●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-──────▄▀▄─────▄▀▄
-─────▄█░░▀▀▀▀▀░░█▄
-─▄▄──█░░░░░░░░░░░█──▄▄
-█▄▄█─█░░▀░░┬░░▀░░█─█▄▄█
--*-~*~-*-*-~*~-*-*-~*~* |
-- */
+/* ===========
+    Variabels
+   =========== */
+
 :root {
-    --primary: 237, 94%, 81%;
+    /* --primary: 237, 94%, 81%; */
     --background: 266, 16%, 92%;
     --background-secondary: 256, 12%, 12%;
     --background-secondary-dark: 256, 10%, 10%;
@@ -34,18 +26,15 @@ Areal Alien ❥ 雷克斯
     --font-main: "Poppins";
 }
 
-/* ===========
-    Variabels
-   =========== */
 
 /* ===============
     Global Styles
    =============== */
 
-*, *::before, *::after {
+/* *, *::before, *::after {
     box-sizing: inherit;
-}
-html, body {
+} */
+/* html, body {
     margin: 0;
     width: 100%;
     color: hsl(var(--text-primary));
@@ -54,18 +43,18 @@ html, body {
     -webkit-font-smoothing: antialiased;
     scroll-behavior: smooth;
     box-sizing: border-box;
-}
+} */
 
 /* ============
     Typography
    ============ */
 
-/* Headings */
+/* Headings
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 /* Font Size */
-h1 {
+/* h1 {
     font-size: var(--heading-large);
 }
 h2 {
@@ -82,19 +71,19 @@ h5 {
 }
 h6 {
     font-size: calc(var(--heading-small) - .6rem);
-}
+} */
 /* Font Weight */
-h1, h2 {
+/* h1, h2 {
     font-weight: 900;
 }
 h3, h4, h5, h6 {
     font-weight: 800;
-}
+} */
 /* Paragraphs */
-p {
+/* p {
     margin: 0;
     font-size: var(--paragraph);
-}
+} */ */
 /* Links */
 a {
     color: hsla(var(--primary), 1);
@@ -255,10 +244,10 @@ select {
 #navbar {
     top: 0;
     padding: 0;
-    width: 5em;
+    width: 5%;
     height: 100vh;
     position: fixed;
-    background-color: hsl(var(--background-secondary));
+    /* background-color: hsl(var(--background-secondary)); */
     transition: width .35s cubic-bezier(var(--transition-main), 1);
     overflow-y: auto;
     overflow-x: hidden;

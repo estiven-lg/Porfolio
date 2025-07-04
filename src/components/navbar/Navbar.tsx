@@ -6,7 +6,7 @@ function NavBar() {
 
 
   return (
-<nav id="navbar" className="nav-bar">
+<nav id="navbar" className="nav-bar bg-tertiary-dark">
   <ul className="navbar-items flexbox-col">
     <li className="navbar-logo flexbox-left">
       <a className="navbar-item-inner flexbox">
