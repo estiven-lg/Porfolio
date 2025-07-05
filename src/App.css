@@ -17,9 +17,9 @@
   --color-tertiary-dark: #081a2c;
 
   /* Colores de texto */
-  --color-text: #a4bcbc;
-  --color-text-light: #c0d0d0;
-  --color-text-dark: #7a8c8c;
+  --color-gray: #a4bcbc;
+  --color-gray-light: #c0d0d0;
+  --color-gray-dark: #7a8c8c;
 }
 
 .App {
