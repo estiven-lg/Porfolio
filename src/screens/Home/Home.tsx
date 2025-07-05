@@ -20,19 +20,20 @@ function Home() {
             I'M
             <strong className="main-name"> Estiven Laferre</strong>
           </h1>
-          
-          <Typewriter
-            options={{
-              strings: [
-                "Web Developer",
-                "Mobile App Developer",
-              ],
-              autoStart: true,
-              loop: true,
-              deleteSpeed: 50,
-              
-            }}
-          />
+          <div className='text-primary-light text-lg md:text-2xl lg:text-3xl font-bold text-center mt-4'>
+            <Typewriter
+              options={{
+                strings: [
+                  "Web Developer",
+                  "Mobile App Developer",
+                ],
+                autoStart: true,
+                loop: true,
+                deleteSpeed: 50,
+
+              }}
+            />
+          </div>
         </div>
         <div className="w-full sm:w-1/3 p-18">
           <img
