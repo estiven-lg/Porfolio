@@ -10,13 +10,13 @@ function NavBar() {
 
   return (
     <nav className="nav-bar bg-tertiary-dark">
-      <ul className="navbar-items flexbox-col">
+      <ul className="navbar-items ">
         <li className="w-full cursor-pointer flex justify-start items-center">
           <a className="nav-bar-link flex justify-center items-center bg-primary-dark">
             <img
               src={logo}
               alt="logo"
-              className="h-10"
+              className="h-5 sm:h-10"
             />
             {/* <span className="nav-title">MyApp</span> */}
           </a>
