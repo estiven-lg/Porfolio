@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
-import Preloader from "../src/components/Pre";
+import Preloader from "./components/Preload/Pre";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./screens/Home/Home";
 // import About from "./components/About/About";
 // import Projects from "./components/Projects/Projects";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 // import Resume from "./components/Resume/ResumeNew";
 import {
   BrowserRouter as Router,
@@ -16,7 +16,7 @@ import "./style.css";
 import "./App.css";
 import "./index.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
-import Particle from "./components/Particle";
+import Particle from "./components/Particle/Particle";
 
 function App() {
   const [load, upadateLoad] = useState(true);
