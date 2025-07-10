@@ -18,12 +18,11 @@ function NavBar() {
               alt="logo"
               className="h-5 sm:h-10"
             />
-            {/* <span className="nav-title">MyApp</span> */}
           </a>
         </li>
         <NavItem icon={<FaHome size={25} />} text="Home" />
         <NavItem icon={<GrProjects size={25} />} text="Projects" />
-        <NavItem icon={<TbDashboard size={25} />} text="Dashboard" />
+        <NavItem icon={<TbDashboard size={25} />} text="Dashboard" />/
         <NavItem icon={<AiOutlineTeam size={25} />} text="Team" />
         <NavItem icon={<FcSupport size={25} />} text="Support" />
 
